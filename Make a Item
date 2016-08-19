@@ -1,0 +1,22 @@
+//Made By IsseiDevs
+
+//Define item id
+var item id = 560;
+
+//Define item Texture
+var item texture = 'stick';
+
+//Define item data
+var item data = 0;
+
+//Define item name
+var item name = 'My Item';
+
+//Define Amount of item
+var maxSize = 64;
+
+//defines the item in the creative
+var creativeInv = Player.addItemCreativeInv;
+
+creativeInv(item id, 1);
+ModPE.setItem(item id,item texture,item data,item name, maxSize);
