@@ -1,0 +1,25 @@
+//Made By isseiDevs
+
+//Define food id
+var food id = 570;
+
+//Define food texture
+var food texture = 'apple';
+
+//Define food hunger
+var food hunger = 2;
+
+//Define food data
+var food data = 0;
+
+//Define food name
+var food name = 'My food';
+
+//Define food maxSize
+var maxSize = 64;
+
+//defines the food in the creative
+var creativeInv = Player.addItemCreativeInv;
+
+creativeInv(food id, 1);
+ModPE.setFoodItem(food id, food texture, food hunger, food data, food name, maxSize);
