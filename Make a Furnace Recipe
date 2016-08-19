@@ -1,0 +1,12 @@
+//Made By IsseiDevs
+ 
+ //Define the Item for cooking
+ var item cooking = 280;
+ 
+ //Define the Item after cooking
+ var item after cooking = 264;
+ 
+ //Sets the amount that will come out
+ var amount = 2;
+ 
+ Item.addfurnaceRecipe(item cooking, item after cooking, amount);
