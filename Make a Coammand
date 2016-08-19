@@ -1,0 +1,13 @@
+//Made By IsseiDevs
+
+//Define the Command name
+var cmd name = 'day';
+
+//Define The Function of Command
+var function name = Level.setTime;
+var day = 0;
+
+function procCmd(cmd){
+if(cmd==cmd name){
+function name(day);
+}}
