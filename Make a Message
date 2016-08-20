@@ -1,0 +1,9 @@
+//Made By IsseiDevs
+
+//Define the Message
+var msg = 'Hello World';
+
+function newLevel(){
+
+msg();
+}
