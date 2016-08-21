@@ -1,0 +1,11 @@
+//Made By isseiDevs
+
+//Created a Custom Item
+ModPE.seItem(560, 'stick', 0, 'My Item', 64);
+
+//Initialized function
+useItem = function(x,y,z,i,b,s){
+
+if(i==560){
+print('the player uses the item');
+}}
