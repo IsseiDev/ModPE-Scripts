@@ -1,0 +1,10 @@
+//Made By IsseiDevs
+
+//Defines what will happen when I leave the game
+var bye = 'Thanks';
+var msg = clientMessage;
+
+//initialized function
+LeaveGame = function(){
+msg(bye);
+}
