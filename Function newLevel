@@ -1,0 +1,10 @@
+//Made By IsseiDevs
+
+//When the player enters the world something will happen
+var msg = 'Welcome ';
+var function = clientMessage;
+
+//Initialized function
+newLevel = function(){
+function(msg+Player.getName(Player.getEntity()));
+}
